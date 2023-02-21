@@ -183,6 +183,16 @@ main {
     width: 100vw;
     height: auto;
 }
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
 
 /**************** MEDIA QUERIES **************/
 @media screen and (max-width: 950px) {
