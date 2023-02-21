@@ -148,3 +148,9 @@ footer {
     height: 10vh;
     background: linear-gradient(hwb(0 19% 81%), hsl(0, 0%, 28%), hsl(0, 0%, 39%));
 }
+@media screen and (max-width: 950px) {
+    img {
+        max-width: 250px;
+        height: auto;
+    }
+}
